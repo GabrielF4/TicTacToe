@@ -11,7 +11,7 @@ def get_position(value):
 
 #Check if 3 positions on board are equal and not empty
 def check_3_in_row(pos1, pos2, pos3):
-    return pos1 != 0 and pos1 == pos2 and pos1 == pos3
+    return pos1 == pos2 == pos3 != 0
 
 #Check for winning positions
 def check_winner(board):
